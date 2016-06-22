@@ -1,0 +1,38 @@
+</br></br>
+<h2> Secure Login </h2>
+</hr>
+
+<form class="form-horizontal" action= "/login" method="GET">
+<fieldset>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="user">Username</label>  
+  <div class="col-md-4">
+  <input id="user" name="user" type="text" placeholder="Username" class="form-control input-md" required="">
+  <span class="help-block">Enter your Username</span>  
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="pass">Password</label>
+  <div class="col-md-4">
+    <input id="pass" name="pass" type="password" placeholder="Password" class="form-control input-md" required="">
+    <span class="help-block">Enter your Password</span>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-info">Login</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+<p><strong>{{ message}} </strong></p>
